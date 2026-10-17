@@ -1,0 +1,6 @@
+account_id,event_id,kind,effective_at,source,evidence_type,currency,symbol,quantity,price,fee,amount,ratio,settlement_at,plan_id,reference_event_id
+sample,fixture:deposit,DEPOSIT,2024-07-01T20:00:00Z,manual_fixture_v1,test,USD,,,,,1000,,,,
+sample,fixture:buy,BUY,2024-07-01T20:00:00Z,manual_fixture_v1,test,USD,SPY,5,100,1.5,,,2024-07-02T20:00:00Z,,
+sample,fixture:ex,DIVIDEND_ACCRUAL,2024-07-05T20:00:00Z,manual_fixture_v1,test,USD,SPY,,,,5,,,,
+sample,fixture:payment,DIVIDEND_PAYMENT,2024-07-10T20:00:00Z,manual_fixture_v1,test,USD,,,,,5,,,,fixture:ex
+sample,fixture:split,SPLIT,2024-07-15T20:00:00Z,manual_fixture_v1,test,USD,SPY,,,,,2,,,

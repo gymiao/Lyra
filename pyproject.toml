@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lyra-personal-quant"
+version = "2.0.0"
+description = "中文个人量化研究、模拟跟踪与人工执行系统"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "pandas==2.3.3", "numpy==2.4.6", "pyarrow==24.0.0",
+  "bt==1.3.0", "ffn==1.3.0", "streamlit==1.65.0",
+  "yfinance==1.7.0", "exchange-calendars==4.13.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+personal-return = ["pyxirr==0.10.8"]
+options = ["QuantLib==1.43"]
+
+[project.scripts]
+lyra = "personal_quant.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.data-files]
+"share/lyrax/locks" = ["pyproject.toml", "conda-linux-64.lock", "requirements-linux-py311.lock", "requirements-options-linux-py311.lock", "environment.yml"]
+"share/lyrax/lean-adapter" = ["engines/lean/LyraX.Options.csproj", "engines/lean/*.cs"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

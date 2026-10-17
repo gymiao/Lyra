@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "source": "synthetic_options_v1",
+  "data_type": "synthetic",
+  "license_terms": "local test only",
+  "unit_evidence": "synthetic terms, not OCC evidence",
+  "available_time_basis": "frozen synthetic timestamps"
+}

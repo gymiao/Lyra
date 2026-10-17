@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "as_of": "2024-10-31T20:30:00Z",
+  "knowledge_cutoff": "2024-10-31T20:30:00Z",
+  "ledger_seq": 0,
+  "ledger_view": "restated",
+  "valuation_snapshot_id": "REPLACE_WITH_IMMUTABLE_RAW_SNAPSHOT_ID",
+  "return_snapshot_id": "REPLACE_WITH_IMMUTABLE_TOTAL_RETURN_SNAPSHOT_ID",
+  "benchmark": "SPY",
+  "window": 126,
+  "min_r2": 0,
+  "max_standard_error": 5,
+  "max_mark_skew_seconds": 120,
+  "max_greek_age_seconds": 3600,
+  "greeks": [],
+  "option_valuation": null
+}

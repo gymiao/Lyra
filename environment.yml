@@ -1,0 +1,12 @@
+# Python 基础环境；项目依赖以 pyproject.toml 为准，随后用 pip 安装。
+# 此文件不是完整依赖锁文件。
+name: lyra
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.15
+  - pip
+  - setuptools
+  - wheel
+variables:
+  PYTHONNOUSERSITE: "1"

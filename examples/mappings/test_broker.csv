@@ -1,0 +1,4 @@
+ID,Type,Time,Ticker,Qty,Price,Fee,Amount,Settlement
+cash1,Deposit,2024-07-01 10:00:00,,,,,1000,
+fill1,Buy,2024-07-01 11:00:00,SPY,2,100,1,,2024-07-02 16:00:00
+fill2,Buy,2024-07-01 11:00:00,SPY,2,100,1,,2024-07-02 16:00:00

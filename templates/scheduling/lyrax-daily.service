@@ -1,0 +1,9 @@
+[Unit]
+Description=LyraX daily research and account checks
+
+[Service]
+Type=oneshot
+WorkingDirectory=/absolute/path/to/lyra-workspace
+ExecStart=/absolute/path/to/lyra/.conda/lyra/bin/python -m personal_quant --config configs/local.toml daily --account-id YOUR_ACCOUNT
+StandardOutput=journal
+StandardError=journal

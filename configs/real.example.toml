@@ -1,0 +1,14 @@
+# 复制为 configs/local-real.toml 并填写账户条件，真实账户从零开始。
+# 缺少费用、风险、交易单位、结算与数据参数时禁止生成交易计划。
+# price_jump_threshold 也须明确填写（正数，0.25 表示25%，示例不是用户风险选择）。
+# 对账还需填写 reconciliation_cash_tolerance、reconciliation_quantity_tolerance、
+# reconciliation_equity_tolerance（有限非负数；0 表示精确比较），不能继承演示值。
+schema_version = 1
+environment = "real"
+market = "XNYS"
+currency = "USD"
+symbols = ["SPY", "IEF", "GLD"]
+weights = [0.3333333333333333, 0.3333333333333333, 0.3333333333333334]
+lookback = 126
+active_strategy = "trend"
+runtime_dir = "runtime/real"

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "security_id": "synthetic-security-spy",
+  "instrument_type": "etf",
+  "ticker_history": [{"ticker": "SPY", "valid_from": "2024-01-01T00:00:00Z", "valid_until": "2030-01-01T00:00:00Z"}],
+  "exchange": "ARCX",
+  "calendar": "XNYS",
+  "timezone": "America/New_York",
+  "currency": "USD",
+  "trade_unit": "1",
+  "valid_from": "2024-01-01T00:00:00Z",
+  "valid_until": "2030-01-01T00:00:00Z",
+  "corporate_action_refs": [],
+  "source_qualification_refs": [],
+  "source_type": "synthetic"
+}

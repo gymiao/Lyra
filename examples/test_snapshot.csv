@@ -1,0 +1,2 @@
+account_id,as_of,currency,cash_basis,cash,symbol,quantity,source,evidence_hash,equity
+sample,2024-07-31T21:00:00Z,USD,settled,503.5,SPY,10,manual_fixture_expected_v1,,

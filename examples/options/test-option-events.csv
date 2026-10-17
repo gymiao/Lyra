@@ -1,0 +1,2 @@
+event_id,source,evidence_type,kind,effective_at,settlement_at,quantity,price,fee,contract_version,action,trade_side
+synthetic-option-buy-001,synthetic_test_statement,test,OPTION_TRADE,2026-10-09T19:45:00Z,2026-10-09T20:00:00Z,1,2,1,8e1304ec46cde3b3ef4f2f6ffeeada9c992c6c13035ede6532aa331561aa05f2,OPEN,BUY

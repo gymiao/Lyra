@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>LyraX.Options</AssemblyName>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <DefaultItemExcludes>$(DefaultItemExcludes);bin/**;obj/**</DefaultItemExcludes>
+    <LeanLib Condition="'$(LeanLib)' == ''">../../.tools/lean/Launcher/bin/Release</LeanLib>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="QuantConnect.Algorithm"><HintPath>$(LeanLib)/QuantConnect.Algorithm.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="QuantConnect.Common"><HintPath>$(LeanLib)/QuantConnect.Common.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Python.Runtime"><HintPath>$(LeanLib)/Python.Runtime.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

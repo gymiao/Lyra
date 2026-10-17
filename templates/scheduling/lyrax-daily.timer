@@ -1,0 +1,10 @@
+[Unit]
+Description=Check LyraX daily after market publication
+
+[Timer]
+OnCalendar=*-*-* *:45:00
+Persistent=false
+Unit=lyrax-daily.service
+
+[Install]
+WantedBy=timers.target

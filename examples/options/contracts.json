@@ -1,0 +1,23 @@
+[
+  {
+    "contract_id": "SPY-20261218-C100-v1",
+    "underlying": "SPY",
+    "right": "CALL",
+    "strike": "100",
+    "expiry": "2026-12-18",
+    "last_trade_at": "2026-12-18T21:00:00Z",
+    "exercise_cutoff_at": "2026-12-18T22:30:00Z",
+    "listed_at": "2026-01-01T00:00:00Z",
+    "style": "AMERICAN",
+    "settlement": "PHYSICAL",
+    "currency": "USD",
+    "quote_multiplier": "100",
+    "deliverable_shares": "100",
+    "deliverable_cash": "0",
+    "exercise_cash": "10000",
+    "tick_size": "0.01",
+    "revision": "v1",
+    "evidence_hash": "synthetic_test_contract_terms",
+    "market_timezone": "America/New_York"
+  }
+]

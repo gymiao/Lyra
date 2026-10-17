@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "start": "2024-07-01",
+  "end": "2024-10-31",
+  "initial_prices": {"SPY": "100", "IEF": "140", "GLD": "180"},
+  "price_nodes": {"SPY": {"2024-08-01": "103", "2024-09-03": "98"}, "IEF": {}, "GLD": {}},
+  "daily_volatility": "0.001",
+  "iv_nodes": {"2024-07-01": "0.3", "2024-09-03": "0.35"},
+  "option_underlying": "SPY",
+  "expiry_days": 21,
+  "strike_step": "5",
+  "spread": "0.05",
+  "seed": 20261017,
+  "missing_quotes": [],
+  "corporate_actions": []
+}

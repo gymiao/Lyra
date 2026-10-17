@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "template_id": "protective_put",
+  "underlying": "SPY",
+  "packages": 1,
+  "fee_per_contract": 2,
+  "selection_parameters": {
+    "minimum_dte": 30, "target_dte": 45, "maximum_dte": 80,
+    "put_moneyness": 0.95, "call_moneyness": 1.05,
+    "exit_days_before_expiry": 7, "max_age_seconds": 3600,
+    "max_spread_fraction": 0.25, "max_underlying_skew_seconds": 60,
+    "max_leg_skew_seconds": 10, "max_underlying_price_fraction": 0.01
+  },
+  "plan_policy": null
+}

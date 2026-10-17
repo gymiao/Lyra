@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "account_id": "demo-account",
+  "initial_cash": "100000",
+  "kind": "options"
+}

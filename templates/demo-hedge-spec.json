@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "name": "test-only",
+  "version": "1.0.0",
+  "mode": "beta_target",
+  "scope": [
+    "SPY",
+    "IEF",
+    "GLD"
+  ],
+  "benchmark": "SPY",
+  "tools": [
+    "reduce_stock",
+    "inverse_etf",
+    "protective_put",
+    "collar",
+    "proxy_put"
+  ],
+  "target_beta": 0.5,
+  "protection_fraction": null,
+  "funding": "cash_only",
+  "funding_symbol": null,
+  "max_cash": 100000,
+  "max_premium": 10000,
+  "max_notional": 1000000,
+  "max_contracts": 10,
+  "max_trade_units": 1000,
+  "residual_beta_tolerance": 1e-06,
+  "max_overhedge_fraction": 0.05,
+  "commission_bps": 0,
+  "fixed_trade_fee": 0,
+  "option_fee_per_contract": 2,
+  "min_abs_proxy_beta": 0.01,
+  "exit_days_before_expiry": 7,
+  "min_days_to_expiry": 30,
+  "max_days_to_expiry": 60
+}

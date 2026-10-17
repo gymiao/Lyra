@@ -1,0 +1,2 @@
+symbol,session_date,market,currency,source,data_type,price_basis,open,high,low,close,adj_close,volume,dividends,split_ratio,available_at
+SPY,2024-07-31,XNYS,USD,manual_fixture_v1,synthetic,unadjusted,49.5,49.5,49.5,49.5,49.5,1000,0,1,2024-07-31T20:30:00Z
